@@ -1,6 +1,5 @@
-
-
 import meimg from '../images/logo.png.png'
+
 export default function Hero (){
     return(
         <>

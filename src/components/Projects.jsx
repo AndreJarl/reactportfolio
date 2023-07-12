@@ -4,7 +4,7 @@ export default function Projects(){
           <>
             <div className="projects">
                <div className="project-container">
-
+                    
                </div>
             </div>
           </>

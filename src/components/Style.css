@@ -39,6 +39,9 @@ body{
 li{
     cursor: pointer;
 }
+li:hover{
+    text-decoration: underline;
+}
 .navbar ul{
     display: flex;
     gap: 2.2em;
@@ -46,7 +49,6 @@ li{
     color: rgb(15, 154, 209);
     font-weight: 600;
     font-size: 15px;
-    
 }
 
 .hero{
@@ -59,6 +61,7 @@ li{
      background-color: white;
      gap: 8em;
      align-items: center;
+ 
 }
 .namecon{
     padding-top: 2em;
@@ -71,8 +74,12 @@ li{
     border: 1px solid #0E86D4;
     border-radius: 50%;
     margin-top: 2em;
-    
 }
+
+#me:hover{
+    transform: translateY(-10px);
+}
+
 .social{
     display: flex;
     gap: 1em;
@@ -116,15 +123,6 @@ li{
     animation: fade-in-down 2s ease;
 }
 
-/* .arrow{
-    width: 30px;
-    margin-bottom: 2em;
-    margin-top: 0em;
-    z-index: -5;		
- animation: bounce2 2s ease infinite;
- text-decoration: none;
- 
-} */
 
 
 .hire{
