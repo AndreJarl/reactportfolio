@@ -1,44 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+
 body{
     margin: 0;
+    font-family: Poppins;
 }
 
 .navbar{
-    background-color: red;
-   margin: 0;
+ 
+   margin-right: 16em;
+   margin-left: 16em;
     padding: 0;
+    font-family: Poppins;
     
 }
-
+.navbar h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
 .navbar-container{
     display: flex;
     justify-content: center;
     color: white;
-    margin-left: 4em;
-    margin-right: 10em;
+    /* box-shadow: 0px 0px 4px grey; */
+    padding: 18px;
+	padding-left: 30px;
+	padding-right: 30px;
     align-items: center;
     z-index: 5545;
     margin-top: 0;
-    
+    background-color: white;
+    gap: 15em;
 } 
+
+li{
+    cursor: pointer;
+}
 .navbar ul{
     display: flex;
-    gap: 6em;
+    gap: 2.2em;
     list-style-type: none;
+    color: rgb(15, 154, 209);
+    font-weight: 600;
+    font-size: 15px;
+    
 }
+
 .hero{
-    background-color: aqua;
+    padding: 0;
     margin: 0;
 }
 .hero-container{
      display: flex;
-     justify-content: center;
-     margin-left: 5em;
-     margin-right: 5em;
+     justify-content: center;  
      background-color: white;
-     gap: 4em;
+     gap: 8em;
+     align-items: center;
+}
+.namecon{
+    padding-top: 2em;
+}
+
+#me{
+    width: 240px;
+    margin-bottom: 1em;
+    transition: 1s ease-in-out;
+    border: 1px solid #0E86D4;
+    border-radius: 50%;
+    margin-top: 2em;
+    
+}
+.social{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+   
+}
+.social a{
+    color: #0E86D4;
+}
+.who{
+    margin-top: -2em;			
+	text-align: center;
+    
+}
+
+.name{
+    font-size: 42px;
+    font-weight: bold;
+    
+}
+.prof{
+    font-size: 15px;
+    margin-top: -1em;
+    font-weight: 400;
+}
+.under{
+    font-weight: bold;
+    
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    padding-top: 1em ;
+    margin-bottom: em;
+    flex-direction: column;
+    animation: fade-in-down 2s ease;
+}
+
+/* .arrow{
+    width: 30px;
+    margin-bottom: 2em;
+    margin-top: 0em;
+    z-index: -5;		
+ animation: bounce2 2s ease infinite;
+ text-decoration: none;
+ 
+} */
+
+
+.hire{
+    padding: 8px 100px;
+    border: none;
+    background: whitesmoke;
+    color: #0E86D4;
+    border-radius: 5px;
+    font-size: 17px;
+    box-shadow: 0px 0px 4px grey;
+    z-index: 5;
+}
+.cv{
+    padding: 10px 77px;
+    border: none;
+    background: rgb(0,0,0,0.9);	
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px grey;
+    font-size: 17px;
+    transition: .4s;
 }
 
 .projects{
-    display: flex;
-    justify-content: center;
+      background-color: #f1f5f9;
 }

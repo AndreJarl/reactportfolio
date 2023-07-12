@@ -3,7 +3,9 @@ export default function Projects(){
       return(
           <>
             <div className="projects">
-                this is experiment!
+               <div className="project-container">
+
+               </div>
             </div>
           </>
       )
