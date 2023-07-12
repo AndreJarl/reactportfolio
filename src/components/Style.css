@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    background-color: red;
+   margin: 0;
+    padding: 0;
+    
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: 4em;
+    margin-right: 10em;
+    align-items: center;
+    z-index: 5545;
+    margin-top: 0;
+    
+} 
+.navbar ul{
+    display: flex;
+    gap: 6em;
+    list-style-type: none;
+}
+.hero{
+    background-color: aqua;
+    margin: 0;
+}
+.hero-container{
+     display: flex;
+     justify-content: center;
+     margin-left: 5em;
+     margin-right: 5em;
+     background-color: white;
+     gap: 4em;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+}
