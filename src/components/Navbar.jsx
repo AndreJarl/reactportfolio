@@ -1,4 +1,4 @@
-import "./Style.css"
+
 
 export default function Navbar (){
     return(
