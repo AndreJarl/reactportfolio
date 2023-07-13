@@ -36,8 +36,10 @@ body{
     gap: 15em;
 } 
 
-li{
+li a{
     cursor: pointer;
+    text-decoration: none;
+    color: rgb(15, 154, 209);
 }
 li:hover{
     text-decoration: underline;
@@ -49,6 +51,7 @@ li:hover{
     color: rgb(15, 154, 209);
     font-weight: 600;
     font-size: 15px;
+    text-decoration: none;
 }
 
 .hero{

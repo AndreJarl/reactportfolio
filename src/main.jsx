@@ -1,15 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Navbar from './components/Navbar.jsx'
-import Hero from './components/Hero.jsx'
-import Projects from './components/Projects.jsx'
+import App from './App'
 import './components/style.css'
+
+import { BrowserRouter as Router } from 'react-router-dom';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    
-    <Navbar/>
-    <Hero/>
-    <Projects/>
+    <Router>
+      <App/>
+    </Router>
   </React.StrictMode>,
 )
