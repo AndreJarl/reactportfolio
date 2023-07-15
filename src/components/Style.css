@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 
-
+html{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
 body{
     margin: 0;
     font-family: Poppins;
 }
 
 .navbar{
- 
-   margin-right: 16em;
-   margin-left: 16em;
+
+   display: flex;
+   justify-content: center;
+   
     padding: 0;
     font-family: Poppins;
+    
     
 }
 .navbar h1{
@@ -20,8 +26,12 @@ body{
     font-size: 20px;
     color: black;
     cursor: pointer;
+    text-decoration: none;
+   
 }
+
 .navbar-container{
+    position: fixed;
     display: flex;
     justify-content: center;
     color: white;
@@ -34,6 +44,7 @@ body{
     margin-top: 0;
     background-color: white;
     gap: 15em;
+    width: 100%;
 } 
 
 li a{
@@ -64,7 +75,8 @@ li:hover{
      background-color: white;
      gap: 8em;
      align-items: center;
-     margin-top: 4em;
+     margin-top: 8em;
+     margin-bottom: 4em;
  
 }
 .namecon{
@@ -149,81 +161,88 @@ li:hover{
     font-size: 17px;
     transition: .4s;
 }
-
+.arrow svg{
+    text-decoration: none;
+    color: rgb(15, 154, 209);
+}
 .projects{
-      background-color:#EDF2F3;
       margin-top: 4em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      background-color: #eff5f8;
+      
 }
 .projectCard{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
     gap: 2em;
     margin-bottom: 4em;
-}
-.project-container h1{
-    display: flex;
-    justify-content: center;
-    font-size: 55px;
-    margin-bottom: 1em;
-    align-items: center;
-}
-
-.project-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10em;
-    overflow: hidden;
    
 }
+
+.projects h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 1em;
+    align-items: center;
+    color:black;
+}
+
 
 .cardContainer{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
-    width: 340px;
-    border-radius: 10px;
     overflow: hidden;
-  
+    
     
 }
-.cardContainer img{
-    
+
+.cardimg{
+    transition: 1s ease-out;
     overflow: hidden;
+    width: 350px;
+    height: 250px;
 }
-.cardContainer img:hover{
-   
-    transform: scale(1.2);
-}
+
 .cardContainer p{
+      overflow: hidden;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 2em;
+      margin-right: 2em;
+      color: black;
+      font-weight: 600;
+}
+
+
+
+.bgcard{
+    position: absolute;
+    overflow: hidden;
+    width: 350px;
+    height: 250px;
+    background: rgba(15, 154, 209, 0.17);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.3px);
+    -webkit-backdrop-filter: blur(3.3px);
     display: flex;
     justify-content: center;
-    color: black;
-    font-size: 14px;
     text-align: center;
-    margin-left: 1em;
-    margin-right: 1em;
+    opacity: 0;
+    transition: .5s;
 }
 
-.cardBtn{
-    display: flex ;
-    gap: 2em;
-   justify-content: center;
-   align-items: center;
+.bgcard:hover{
+    opacity: 1;
 }
-.demo{
-    color: black;
-    background-color: rgb(109, 187, 218);
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-weight: 700;
 
-}

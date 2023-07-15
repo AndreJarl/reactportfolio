@@ -1,4 +1,4 @@
-import moon from '../images/moon.svg'
+import moon from '../assests/moon.svg'
 import { Link } from "react-router-dom"
 
 export default function Navbar (){
@@ -6,7 +6,7 @@ export default function Navbar (){
         <>
           <div className="navbar">
               <div className="navbar-container">
-                  <h1>Andre Jarl</h1>
+                  <h1 className='hh'><Link to="/" style={{ cursor: 'pointer', color: 'black', textDecoration: 'none' }}>Andre Jarl</Link></h1>
                       <ul>
                             <img id="dark" style={{ cursor: 'pointer' }} src= {moon} alt=""></img>
                           <li> <Link to="/">Home</Link></li>
