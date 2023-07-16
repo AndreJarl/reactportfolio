@@ -7,6 +7,7 @@ const ProjectData = [
         imgsrc: proj1,
         desc: "A front-end only e-commerce website. Inspired by the BBC show Peaky Blinders.",
         link: "https://www.youtube.com"
+        
     },
     {
         imgsrc: proj2,

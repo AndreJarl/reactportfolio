@@ -15,7 +15,7 @@ body{
 
    display: flex;
    justify-content: center;
-   
+   position: relative;
     padding: 0;
     font-family: Poppins;
     
@@ -73,41 +73,40 @@ li:hover{
      display: flex;
      justify-content: center;  
      background-color: white;
-     gap: 8em;
+     gap: 13em;
      align-items: center;
-     margin-top: 8em;
+     margin-top: 9em;
      margin-bottom: 4em;
  
 }
 .namecon{
     padding-top: 2em;
+    margin-right: -9em;
 }
 
-#me{
-    width: 240px;
-    margin-bottom: 1em;
-    transition: 1s ease-in-out;
-    border: 1px solid #0E86D4;
-    border-radius: 50%;
-    margin-top: 2em;
+.ccc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10em;
+    margin-top: 8em;
 }
 
-#me:hover{
-    transform: translateY(-10px);
-}
 
 .social{
     display: flex;
     gap: 1em;
     justify-content: center;
     align-items: center;
-   
+    z-index: 5;
+    margin-top: 2em;
 }
 .social a{
     color: #0E86D4;
+    width: 30px;
 }
 .who{
-    margin-top: -2em;			
+    margin-top: -3em;			
 	text-align: center;
     
 }
@@ -164,9 +163,10 @@ li:hover{
 .arrow svg{
     text-decoration: none;
     color: rgb(15, 154, 209);
+    animation: bounce2 2s ease infinite;
 }
 .projects{
-      margin-top: 4em;
+      margin-top: 5em;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -246,3 +246,75 @@ li:hover{
     opacity: 1;
 }
 
+.lang-con {
+    position: relative;
+    margin-top: 2em;
+  }
+
+
+  #me{
+    width: 280px;
+    transition: 1s ease-in-out;
+    border: 1px solid #0E86D4;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+  
+  #me1,
+  #me2,
+  #me3,
+  #me4,
+  #me5,
+  #me6 {
+    position: absolute;
+    width: 40px; /* Adjust the size to fit your needs */
+    top: 50%;
+    left: 50%;
+    transform-origin: center;
+    z-index: 1;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg) translateX(160px) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg) translateX(160px) rotate(-360deg);
+    }
+  }
+  
+  @keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-20px);}
+	60% {transform: translateY(-15px);}
+}
+
+  #me1 {
+    animation: rotate 7s linear infinite;
+  }
+  
+  #me2 {
+    animation: rotate 7.5s linear infinite ;
+  }
+
+  #me3 {
+    animation: rotate 8s linear infinite;
+  }
+  
+  #me4 {
+    animation: rotate 8.5s linear infinite ;
+  }
+  
+  #me5 {
+    animation: rotate 9s linear infinite ;
+    background-color: white;
+    border-radius: 8px;
+  }
+
+  #me6 {
+    animation: rotate 9.5s linear infinite ;
+  }
