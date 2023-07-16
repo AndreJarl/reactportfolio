@@ -6,18 +6,18 @@ const ProjectData = [
     {
         imgsrc: proj1,
         desc: "A front-end only e-commerce website. Inspired by the BBC show Peaky Blinders.",
-        link: "https://www.youtube.com"
+        link: "https://andrejarl.github.io/andrejarlpeakyclothing.github.io/clothing.html"
         
     },
     {
         imgsrc: proj2,
         desc: "A front-end only real-estate website.",
-        link: "https://www.youtube.com/watch?v=0h2b4ftbZcU&t=7924s"
+        link: "https://andrejarl.github.io/anianaluxury.github.io/index.html"
     },
     {
         imgsrc: proj3,
         desc: "A tiktok viral web app that you cannot refuse.",
-        link: "https://www.youtube.com"
+        link: "https://andrejarl.github.io/Anti-rejectionProposalPrank.github.io/proposal.html"
     }
 ]
 

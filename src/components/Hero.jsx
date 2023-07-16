@@ -36,6 +36,7 @@ export default function Hero (){
                  <div className="who">
                    <p class="name">Andre Jarl</p>
                    <p class="prof">A <span id ="age">17 years old</span> <span class= "under" id="under">Front-end Web Developer</span> based in Cebu, Philippines.</p>	           
+                   <p style={{color: 'grey', fontWeight: '700px'}}>Aspiring Full-stack Web-developer.</p>
                    </div>     
                        <div class="buttons">
                             <button class="hire">Hire me</button>

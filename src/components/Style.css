@@ -72,7 +72,7 @@ li:hover{
 .hero-container{
      display: flex;
      justify-content: center;  
-     background-color: white;
+     background-color: #FFFFFF;
      gap: 13em;
      align-items: center;
      margin-top: 9em;
@@ -99,11 +99,16 @@ li:hover{
     justify-content: center;
     align-items: center;
     z-index: 5;
-    margin-top: 2em;
+    margin-top: .5em;
 }
 .social a{
     color: #0E86D4;
     width: 30px;
+    cursor: pointer;
+}
+
+.social a:hover{
+    color: #073553;
 }
 .who{
     margin-top: -3em;			
@@ -115,6 +120,7 @@ li:hover{
     font-size: 42px;
     font-weight: bold;
     color: rgb(26, 25, 25);
+   
 }
 .prof{
     font-size: 15px;
@@ -136,6 +142,7 @@ li:hover{
     margin-bottom: em;
     flex-direction: column;
     animation: fade-in-down 2s ease;
+   
 }
 
 
@@ -149,7 +156,13 @@ li:hover{
     font-size: 17px;
     box-shadow: 0px 0px 4px grey;
     z-index: 5;
+    cursor: pointer;
 }
+
+.hire:hover{
+    background-color: rgb(235, 232, 232);
+}
+
 .cv{
     padding: 10px 77px;
     border: none;
@@ -159,6 +172,12 @@ li:hover{
     box-shadow: 0px 0px 4px grey;
     font-size: 17px;
     transition: .4s;
+    box-shadow: 7px 7px 5px  rgb(100, 118, 124);
+    cursor: pointer;
+}
+.cv:hover{
+    opacity: .7;
+    box-shadow: none;
 }
 .arrow svg{
     text-decoration: none;
@@ -166,7 +185,7 @@ li:hover{
     animation: bounce2 2s ease infinite;
 }
 .projects{
-      margin-top: 5em;
+      margin-top: 6em;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -180,8 +199,9 @@ li:hover{
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: 4em;
     margin-bottom: 4em;
+   
    
 }
 
@@ -189,7 +209,7 @@ li:hover{
     display: flex;
     justify-content: center;
     font-size: 50px;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     align-items: center;
     color:black;
 }
@@ -201,15 +221,15 @@ li:hover{
     align-items: center;
     flex-direction: column;
     overflow: hidden;
-    
+    box-shadow: 7px 7px 7px  rgb(100, 118, 124);
     
 }
 
 .cardimg{
     transition: 1s ease-out;
     overflow: hidden;
-    width: 350px;
-    height: 250px;
+    width: 410px;
+    height: 300px;
 }
 
 .cardContainer p{
@@ -229,8 +249,8 @@ li:hover{
 .bgcard{
     position: absolute;
     overflow: hidden;
-    width: 350px;
-    height: 250px;
+    width: 410px;
+    height: 300px;
     background: rgba(15, 154, 209, 0.17);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3.3px);
@@ -245,7 +265,19 @@ li:hover{
 .bgcard:hover{
     opacity: 1;
 }
+.projBtn{
+    background-color: #379cdf;
+    border: none;
+    font-size: 17px;
+    padding: 15px 30px;
+    margin-bottom: 4em;
+}
 
+.projBtn:hover{
+    background-color: #0e74b8;
+    color: #FFFFFF;
+    cursor: pointer;
+}
 .lang-con {
     position: relative;
     margin-top: 2em;
@@ -253,7 +285,7 @@ li:hover{
 
 
   #me{
-    width: 280px;
+    width: 250px;
     transition: 1s ease-in-out;
     border: 1px solid #0E86D4;
     border-radius: 50%;
@@ -262,6 +294,7 @@ li:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
+  
 }
   
   #me1,
@@ -271,19 +304,20 @@ li:hover{
   #me5,
   #me6 {
     position: absolute;
-    width: 40px; /* Adjust the size to fit your needs */
+    width: 30px; /* Adjust the size to fit your needs */
     top: 50%;
     left: 50%;
     transform-origin: center;
     z-index: 1;
+    box-shadow: 7px 7px 7px  rgb(100, 118, 124);
   }
   
   @keyframes rotate {
     0% {
-      transform: translate(-50%, -50%) rotate(0deg) translateX(160px) rotate(0deg);
+      transform: translate(-50%, -50%) rotate(0deg) translateX(150px) rotate(0deg);
     }
     100% {
-      transform: translate(-50%, -50%) rotate(360deg) translateX(160px) rotate(-360deg);
+      transform: translate(-50%, -50%) rotate(360deg) translateX(150px) rotate(-360deg);
     }
   }
   
@@ -317,4 +351,32 @@ li:hover{
 
   #me6 {
     animation: rotate 9.5s linear infinite ;
+  }
+
+  .footer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 3em;
+  }
+
+  .footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+  .social-container {
+      align-items: center;
+      display: flex;
+      gap: 1em;
+  }
+
+  .social-container a{
+    color: gray;
+    
+  }
+  .social-container a:hover{
+     color: rgb(99, 85, 85);
   }

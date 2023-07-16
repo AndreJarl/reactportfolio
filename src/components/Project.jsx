@@ -1,5 +1,6 @@
 import ProjectCard from "./ProjectCard"
 import ProjectData from "./ProjectData"
+import { Link } from "react-router-dom"
 export default function Project(){
       return(
           <>
@@ -20,6 +21,9 @@ export default function Project(){
                     })}
                 </div>                 
                     </div>
+                
+                  <Link to='/projects'><button className="projBtn">See More</button></Link>
+                    
                </div>
           </>
       )
