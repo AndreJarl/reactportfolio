@@ -5,7 +5,7 @@ export default function Navbar (){
       
     return(
         <>
-          <div className="navbar">
+          <div id='nav' className="navbar">
               <div className="navbar-container">
               
                   <h1 className='hh'><Link to="/" style={{ cursor: 'pointer', color: 'black', textDecoration: 'none' }}>Andre Jarl</Link></h1>

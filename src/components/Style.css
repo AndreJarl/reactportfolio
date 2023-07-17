@@ -191,7 +191,7 @@ li:hover{
       justify-content: center;
       align-items: center;
       overflow: hidden;
-      background-color: #eff5f8;
+      background-color: #FFFFFF;
       
 }
 .projectCard{
@@ -358,6 +358,7 @@ li:hover{
       justify-content: center;
       align-items: center;
       margin-bottom: 3em;
+     
   }
 
   .footer-container{
