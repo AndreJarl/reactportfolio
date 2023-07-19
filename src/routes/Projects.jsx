@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar"
 import ProjectData from "../components/ProjectData"
 import ProjectCard from "../components/ProjectCard"
 import Footer from "../components/Footer"
+import { Link } from "react-router-dom"
 export default function Projects(){
     return(
        <div>
@@ -15,6 +16,7 @@ export default function Projects(){
                          return (
                               <ProjectCard 
                               key = {ind}
+                              link = {val.link}
                               imgsrc ={val.imgsrc}
                               desc = {val.desc}
                               /> 

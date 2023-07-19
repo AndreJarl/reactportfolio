@@ -381,3 +381,47 @@ li:hover{
   .social-container a:hover{
      color: rgb(99, 85, 85);
   }
+
+  .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5em;
+  }
+
+  .about-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 2em;
+  }
+
+ .about-desc{
+     width: 850px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+.techimg img{
+    width: 50px;
+}
+.tech{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 4em;
+}
+
+.techimg{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+
+}
