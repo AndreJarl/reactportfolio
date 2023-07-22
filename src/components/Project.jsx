@@ -1,6 +1,7 @@
 import ProjectCard from "./ProjectCard"
 import ProjectData from "./ProjectData"
 import { Link } from "react-router-dom"
+
 export default function Project(){
       return(
           <>
@@ -16,6 +17,7 @@ export default function Project(){
                               link = {val.link}
                               imgsrc ={val.imgsrc}
                               desc = {val.desc}
+                              lang={val.lang}
                               /> 
                          )
                     })}

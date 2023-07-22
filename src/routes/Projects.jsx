@@ -19,6 +19,7 @@ export default function Projects(){
                               link = {val.link}
                               imgsrc ={val.imgsrc}
                               desc = {val.desc}
+                              lang={val.lang}
                               /> 
                          )
                     })}

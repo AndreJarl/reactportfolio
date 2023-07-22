@@ -260,6 +260,7 @@ li:hover{
     text-align: center;
     opacity: 0;
     transition: .5s;
+    
 }
 
 .bgcard:hover{
@@ -423,5 +424,24 @@ li:hover{
     justify-content: center;
     align-items: center;
     gap: 2em;
+
+}
+.ttt{
+   margin-left: 5em;
+}
+
+
+.lang{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   display: flex;
+   margin-left: 1em;
+   gap: 1em;
+   margin-bottom: 1em;
+}
+
+.lang1{
+   width: 30px;
 
 }
