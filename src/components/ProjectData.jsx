@@ -10,6 +10,10 @@ import js from '../assests/Javascript.png'
 import react from '../assests/react-removebg.png'
 import boot from '../assests/Bootstrap.png'
 import sass from '../assests/sass.png'
+import movie from '../assests/movie.png'
+import tailwind from '../assests/tailwind.png'
+import stream from '../assests/stream.png'
+
 const ProjectData = [
     {
         imgsrc: proj1,
@@ -48,7 +52,19 @@ const ProjectData = [
         desc: "Ecommerce Store using API . With ordering cart system. Add to cart and delete cart.",
         link: "https://andrejarl.github.io/fakeshop/commerce.html",
         lang: [html, css, js, sass]
-    }
+    },
+    // {
+    //     imgsrc: movie,
+    //     desc: "A movie streaming website using React and Tailwind CSS. The website features a responsive design to ensure optimal functionality across devices and integrates with the TMDB API to dynamically fetch and display movie data. Key functionalities include a search feature, detailed movie information, and user ratings.",
+    //     link: "https://andrejarl./#/.io/fakeshop/commerce.html",
+    //     lang: [react, tailwind]
+    // },
+    // {
+    //     imgsrc: stream,
+    //     desc: "A dynamic TV show streaming platform using React and Tailwind CSS, designed for a smooth user interface and intuitive navigation. The platform integrates with the TMDB API to provide real-time data on TV shows, featuring search functionality, trending shows, and detailed show pages with information on seasons and episodes.",
+    //     link: "https://andrejarl.github.io/fakeshop/commerce.html",
+    //     lang: [react, tailwind]
+    // },
     
 ]
 

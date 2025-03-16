@@ -7,7 +7,7 @@ export default function Projects(){
     return(
        <div>
        <Navbar />
-       <div style={{backgroundColor: 'white'}} className="projects">
+       <div className="projects">
             <h1>MY  PERSONAL  PROJECTS</h1>
                <div  id="#proj" className="project-container">
                   

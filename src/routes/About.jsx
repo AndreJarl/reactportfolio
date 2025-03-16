@@ -10,6 +10,14 @@ import vscode from '../assests/vscode.png'
 import net from '../assests/dot-NET-Core.png'
 import visual from '../assests/visual.png'
 import git from '../assests/git.png'
+import mongo from '../assests/mongo.png'
+import node from '../assests/node.png'
+import express from '../assests/express.png'
+import tailwind from '../assests/tailwind.png'
+import postman from '../assests/postman.png'
+import figma from '../assests/figma.png'
+
+
 export default function About(){
      return(
         <div>
@@ -31,6 +39,7 @@ export default function About(){
            </div>
            <div className="tech">
            <p style={{fontWeight: '700'}}>Technologies I've worked with</p>
+         
               <div className="techimg">
                   <img src={html} alt="" srcset="" />
                   <img src={css} alt="" srcset="" />
@@ -41,7 +50,14 @@ export default function About(){
                   <img src={net} alt="" srcset="" />
                   <img src={vscode} alt="" srcset="" />
                   <img style={{width: '60px'}} src={visual} alt="" srcset="" />
-                  <img src={git} alt="" srcset="" />                 
+                  <img src={git} alt="" srcset="" />    
+                  <img src={mongo} alt="" srcset="" />     
+                  <img src={node} alt="" srcset="" />    
+                  <img src={express} alt="" srcset="" />           
+                  <img src={tailwind} alt="" srcset="" />  
+                  <img src={postman} alt="" srcset="" />   
+                  <img src={figma} alt="" srcset="" />              
+               
               </div>
            </div>
           
