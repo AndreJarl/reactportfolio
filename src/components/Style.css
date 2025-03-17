@@ -11,7 +11,7 @@
   .dark {
     --bg-color:oklch(0.141 0.005 285.823);
     --text-color: white;
-    --box-shadow:0;
+    --box-shadow: 3px 3px 3px  rgb(106, 107, 108);
   }
   
 html{
@@ -335,13 +335,14 @@ li:hover{
   #me{
     width: 250px;
     transition: 1s ease-in-out;
-    border: 1px solid #0E86D4;
+   
     border-radius: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
+    box-shadow: var(--box-shadow);
   
 }
   
@@ -356,8 +357,12 @@ li:hover{
     top: 50%;
     left: 50%;
     transform-origin: center;
-    z-index: 1;
-    box-shadow: var(--box-shadow);  }
+    z-index: 10;
+    box-shadow: var(--box-shadow);
+    border-radius:50%;
+    background-color:white;
+    padding:5px;
+  }
   
   @keyframes rotate {
     0% {
@@ -482,8 +487,8 @@ li:hover{
 }
 
 .techimg{
-   display:flex;
-   width:840px;
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
    gap:2em;
    align-items:center;
     overflow-x:scroll;
@@ -651,6 +656,6 @@ li:hover{
 }
 
 .langFlex {
-    width:250px
+    width:310px
 }
 }
