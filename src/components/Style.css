@@ -9,9 +9,9 @@
   
   /* Dark mode */
   .dark {
-    --bg-color:oklch(0.141 0.005 285.823);
+    --bg-color:rgb(15, 14, 14);
     --text-color: white;
-    --box-shadow: 3px 3px 3px  rgb(106, 107, 108);
+    --box-shadow: 7px 7px 7px  rgb(51, 53, 54);
   }
   
 html{
@@ -144,13 +144,13 @@ li:hover{
 }
 
 .name{
-    font-size: 50px;
+    font-size: 56px;
     font-weight: bold;
     color: var(--text-color);   
 }
 .prof{
     font-size: 15px;
-    margin-top: -1em;
+    margin-top: -2.5em;
     font-weight: 400;
     width: 450px;
     margin-right:0em;
@@ -200,7 +200,7 @@ li:hover{
     box-shadow: 0px 0px 4px grey;
     font-size: 17px;
     transition: .4s;
-    box-shadow: 7px 7px 5px  rgb(100, 118, 124);
+    box-shadow: 7px 7px 5px  rgb(61, 68, 71);
     cursor: pointer;
 }
 .cv:hover{
@@ -426,8 +426,7 @@ li:hover{
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-bottom: 3em;
-     
+      padding-bottom: 3em;
   }
 
   .footer-container{
@@ -435,6 +434,7 @@ li:hover{
     justify-content: space-between;
     align-items: center;
     width: 80%;
+   
 }
 
   .social-container {
@@ -537,7 +537,7 @@ li:hover{
   
   .langFlexCon img {
     width: 40px;
-    filter: grayscale(100%);
+    filter: grayscale(70%);
     flex-shrink: 0;
   }
   
