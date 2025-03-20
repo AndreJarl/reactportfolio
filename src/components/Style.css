@@ -9,7 +9,7 @@
   
   /* Dark mode */
   .dark {
-    --bg-color:rgb(15, 14, 14);//
+    --bg-color:rgb(15, 14, 14);
     --text-color: white;
     --box-shadow: 7px 7px 7px  rgb(51, 53, 54);
   }
@@ -541,7 +541,7 @@ li:hover{
     flex-shrink: 0;
   }
   
-  /* Infinite scrolling animation *////
+  /* Infinite scrolling animation */
   @keyframes scroll {
     from {
       transform: translateX(0);
